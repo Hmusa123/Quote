@@ -1,0 +1,16 @@
+body{
+    font-family: poppins;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #079758;
+    color: #ffffff;
+}
+span{
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
